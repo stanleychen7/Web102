@@ -9,6 +9,8 @@
 }
 
 
+
+
  body {
   margin: 0;
   display: flex;
@@ -16,3 +18,13 @@
   min-width: 320px;
   min-height: 100vh;
 }
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 100px;
+  font-size: 85px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 100px;
+}
+
