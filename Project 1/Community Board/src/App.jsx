@@ -4,7 +4,7 @@ import Board from './components/Board';
 const App = () => {
 
   return (
-    <div className="App">
+    <div id="root">
       <h1>Top 10 Dog Breeds</h1>
       <Board/>
       

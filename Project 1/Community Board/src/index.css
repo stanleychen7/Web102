@@ -1,22 +1,13 @@
-body {
-    margin: 0;
-    display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh; 
-  }
-  
-  td {
-    padding: 5px;
-  }
-  
 .dog-image {
-    align-items: center;
     width: 256px;
     height: 256px;
 }
 
 .boardCell{
-    padding: 
-    
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 25px #817c7c33;
+    background-color: beige;
+    border-style:solid;
+
 }
