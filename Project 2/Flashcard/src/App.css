@@ -40,3 +40,38 @@
 .read-the-docs {
   color: #888;
 }
+
+/*Flashcard*/
+
+.flashcard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flashcards {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  border: 10px;
+  border-radius: 2rem;
+  border: red 0.1rem solid;
+  padding: 20px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.traffic-sign {
+  width: 400px;
+  height: 400px;
+  display: block; 
+  margin: 0 auto; 
+}
+
+.answer {
+  font-weight: 600;
+  font-size: 40px;
+  color:black
+
+}
