@@ -47,6 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .flashcards {
@@ -55,12 +56,17 @@
   background-color: white;
   border: 10px;
   border-radius: 2rem;
-  border: red 0.1rem solid;
+  border: rgb(53, 53, 53) 0.1rem solid;
   padding: 20px;
   display: flex; 
   justify-content: center; 
   align-items: center; 
 }
+
+.flashcard-container:hover {
+  cursor: pointer;
+}
+
 
 .traffic-sign {
   width: 400px;
@@ -73,5 +79,19 @@
   font-weight: 600;
   font-size: 40px;
   color:black
+}
 
+.randomButton {
+  display:flex;
+  justify-content: center;
+  background-color: beige;
+  color: black;
+  margin-top: 10px;
+  padding: 20px;
+  align-items: center;
+}
+
+.randomButton:hover {
+  cursor: pointer;
+  background-color: greenyellow;
 }
