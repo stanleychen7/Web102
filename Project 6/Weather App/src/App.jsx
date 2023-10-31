@@ -4,6 +4,7 @@ import './App.css';
 import axios from 'axios';
 import CurrentWeatherCard from './components/CurrentWeatherCard';
 import Dashboard from './components/dashboard';
+import WeatherChart from './components/WeatherChart';
 
 const API_KEY = import.meta.env.VITE_APP_API_KEY;
 
@@ -65,6 +66,7 @@ function App() {
     <div className='App'>
       <CurrentWeatherCard weatherdata={data}/>
       <Dashboard forecastdata = {forecast}/>
+      <WeatherChart forecasts={forecast} />
     </div>
   );
 }
