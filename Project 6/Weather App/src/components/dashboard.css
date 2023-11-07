@@ -1,0 +1,42 @@
+/* dashboard.css */
+h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: center;
+    color: black;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000; /* Change to black (#000) */
+}
