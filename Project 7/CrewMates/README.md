@@ -1,27 +1,27 @@
-# Web Development Project 5 - *Name of App Here*
+# Web Development Project 7 - Crewmate Gallery
 
 Submitted by: Stanley Chen
 
-This web app: Attempted to use airVisual api to search for cities in NY and display data
+This web app: Using react and supabase database, I created a webapp that allows user to create Among Us character and store it in a database
 
-Time spent: 10 hours spent in total
+Time spent: 7 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The list displays a list of data fetched using an API call**
-- [X] **Data uses the useEffect React hook and async/await syntax**
-- [ ] **The app dashboard includes at least three summary statistics about the data such as**
-  - [ ] *insert details*
-- [ ] **A search bar allows the user to search for an item in the fetched data**
-- [ ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [X] **A create form allows users to add new cremates**
+- [X] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
+- [X] **The site displays a summary page of all the user's added crewmates**
+- [X] **A previously created crewmate can be updated from the crewmate list**
+- [X] **A previously created crewmate can be deleted from the crewmate list**
+- [X] **Each crewmate has a direct, unique link to an info page about them**
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] A crewmate can be given a category upon creation which restricts their attributes
+- [ ] The site displays summary statistics about a user's crew on their crew page 
+- [ ] The site displays a custom "success" metric about a user's crew which changes the look of the crewmate list
 
 The following **additional** features are implemented:
 
@@ -31,10 +31,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/FA5e9b0' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -44,10 +44,7 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
-I faced a lot of challenges in this project. 
-1. Not reading data correctly.
-2. Rate limiting
-3. Too much
+Setting up supabase and understanding how it adds data from react
 
 ## License
 
